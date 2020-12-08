@@ -1,0 +1,44 @@
+@import 'Navbar.css';
+@import 'Post-Card.css';
+.container {
+    display: grid;
+    height: auto;
+    grid-template-columns: 300px;
+    grid-template-rows: auto 1fr 20px;
+    grid-template-areas: 'hd hd hd hd hd hd hd hd' 'sd sd sd sd sd sd sd sd' 'ft ft ft ft ft ft ft ft';
+}
+
+.header {
+    grid-area: hd;
+}
+
+.footer {
+    grid-area: ft;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.sidebar {
+    grid-area: sd;
+}
+
+.Flexbox-Cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#header-posts {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+@media (max-width: 900px) {
+    .container {
+        display: grid;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas: 'hd' 'sd' 'ft';
+    }
+}

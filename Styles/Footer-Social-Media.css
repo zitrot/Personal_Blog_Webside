@@ -1,0 +1,65 @@
+.flex-container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.flex-container li {
+  list-style: none;
+  flex-grow: 1;
+}
+.twitter {
+  background-color: #55acee;
+  order: 5;
+}
+.twitter:hover {
+  background-color: #6fb9f1;
+}
+.facebook {
+  background-color: #3b5998;
+  order: 3;
+}
+.facebook:hover {
+  background-color: #4365ad;
+}
+.linkedin {
+  background-color: #0976b4;
+  order: 1;
+}
+.linkedin:hover {
+  background-color: #0a89d1;
+}
+.codepen {
+  background-color: #181818;
+  order: 2;
+}
+.codepen:hover {
+  background-color: #262626;
+}
+.dribbble {
+  background-color: #ea4c89;
+  order: 4;
+}
+.dribbble:hover {
+  background-color: #ed6499;
+}
+.twitter,
+.facebook,
+.linkedin,
+.codepen,
+.dribbble,
+.twitter:hover,
+.facebook:hover,
+.linkedin:hover,
+.codepen:hover,
+.dribbble:hover {
+  transition: background-color 0.5s ease;
+}
+.flex-container a {
+  display: block;
+}
+.flex-container i {
+  color: #fff;
+  line-height: 35px;
+  width: 100%;
+  text-align: center;
+}

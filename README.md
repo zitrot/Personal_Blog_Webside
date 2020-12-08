@@ -1,2 +1,2 @@
-# zitrot.github.io
-Primer proyecto del curso de Front End Developer
+# Proyecto-html-css
+Primer proyecto del nanodegree Front End Web developer
